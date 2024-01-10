@@ -17,7 +17,7 @@
 	const description = " I'm Logan, a freelance web developer chilling in Helena, MT. This cozy space on the web is where I share my thoughts, articles, and projects. My goal? To make the web not just functional but downright lovely, especially for those who might find technology a bit tricky in our fast-paced modern world."
 </script>
 
-<Container cls="mt-9">
+<Container cls="mt-24">
 	<div class="max-w-2xl">
 		<h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
 			{title}
