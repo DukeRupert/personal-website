@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.pcss';
+	import Toaster from '$lib/toast/Toaster.svelte';
 	import Header from '$lib/header/index.svelte';
 	import Footer from '$lib/Footer.svelte';
 	import PageTransition from '$lib/PageTransition.svelte';
@@ -8,6 +9,7 @@
 	export let data: LayoutData;
 </script>
 
+<Toaster />
 <div class="relative flex w-full flex-col bg-zinc-50 dark:bg-black">
 	<Header />
 	<main class="flex-auto min-h-screen">
