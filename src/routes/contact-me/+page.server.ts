@@ -24,11 +24,8 @@ export const actions: Actions = {
 			return fail(400, { form });
 		}
 
-		// Check the honeypot
-		if (form.data.password !== '') return message(form, 'Nice try bot', { status: 400 });
-
 		console.log("Validation checks passed")
-		// Send email
+		// Todo: Send email
 
 		// Yep, return { form } here too
 		return { form };
